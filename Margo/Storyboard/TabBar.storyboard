@@ -717,21 +717,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KFE-mP-Nla" customClass="KolodaView" customModule="Koloda">
-                                <rect key="frame" x="0.0" y="90" width="393" height="645"/>
+                                <rect key="frame" x="0.0" y="120" width="393" height="615"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eu8-TM-afY" customClass="QRScannerView" customModule="MercariQRScanner">
-                                <rect key="frame" x="0.0" y="90" width="393" height="645"/>
+                                <rect key="frame" x="0.0" y="120" width="393" height="615"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_qrCode" translatesAutoresizingMaskIntoConstraints="NO" id="YAv-SM-sKH">
-                                        <rect key="frame" x="156.66666666666666" y="282.66666666666669" width="80" height="80"/>
+                                        <rect key="frame" x="156.66666666666666" y="267.66666666666669" width="80" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="YAv-SM-sKH" secondAttribute="height" multiplier="1:1" id="IoF-y6-Bor"/>
                                             <constraint firstAttribute="width" constant="80" id="b9I-9s-x9U"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XTh-4p-N6T">
-                                        <rect key="frame" x="138.66666666666666" y="374.66666666666669" width="116" height="36.666666666666686"/>
+                                        <rect key="frame" x="138.66666666666666" y="359.66666666666669" width="116" height="36.666666666666686"/>
                                         <string key="text">Scan QR Code to 
 Access Profile</string>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="14"/>
@@ -739,7 +739,7 @@ Access Profile</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eud-7J-v9g">
-                                        <rect key="frame" x="146.66666666666666" y="431.33333333333337" width="100" height="35"/>
+                                        <rect key="frame" x="146.66666666666666" y="416.33333333333337" width="100" height="35"/>
                                         <color key="backgroundColor" name="AccentColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="GMN-BQ-wfe"/>
@@ -769,7 +769,7 @@ Access Profile</string>
                                 </constraints>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentInsetAdjustmentBehavior="never" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Dzd-uK-7YW">
-                                <rect key="frame" x="-10" y="113" width="413" height="622"/>
+                                <rect key="frame" x="-10" y="143" width="413" height="592"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="cz0-oV-e6j" customClass="CollectionViewSlantedLayout" customModule="CollectionViewSlantedLayout">
                                     <size key="itemSize" width="128" height="128"/>
@@ -789,11 +789,11 @@ Access Profile</string>
                                 </cells>
                             </collectionView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LAw-lW-3VE">
-                                <rect key="frame" x="0.0" y="90" width="393" height="762"/>
+                                <rect key="frame" x="0.0" y="120" width="393" height="732"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iFS-oL-SDR">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="90"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="120"/>
                                 <subviews>
                                     <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_top_gradient" translatesAutoresizingMaskIntoConstraints="NO" id="7Ia-Z1-JHt">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="120"/>
@@ -802,10 +802,10 @@ Access Profile</string>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AR5-4S-1Px">
-                                        <rect key="frame" x="323" y="34.333333333333336" width="50" height="50.000000000000007"/>
+                                        <rect key="frame" x="333" y="49.333333333333343" width="40" height="40"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="IvZ-Sl-0Kg"/>
-                                            <constraint firstAttribute="width" constant="50" id="nGb-7F-zYm"/>
+                                            <constraint firstAttribute="height" constant="40" id="IvZ-Sl-0Kg"/>
+                                            <constraint firstAttribute="width" constant="40" id="nGb-7F-zYm"/>
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button" image="ic_notification"/>
@@ -819,20 +819,20 @@ Access Profile</string>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Krunal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zty-2Y-yvu">
-                                        <rect key="frame" x="25" y="60" width="72.333333333333329" height="26"/>
+                                        <rect key="frame" x="25" y="75" width="72.333333333333329" height="26"/>
                                         <fontDescription key="fontDescription" name="Galvji-Bold" family="Galvji" pointSize="22"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hey," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jN7-QD-zCc">
-                                        <rect key="frame" x="24.999999999999996" y="34.333333333333336" width="37.666666666666657" height="23.666666666666664"/>
+                                        <rect key="frame" x="24.999999999999996" y="49.333333333333336" width="37.666666666666657" height="23.666666666666664"/>
                                         <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="7Ia-Z1-JHt" secondAttribute="bottom" constant="-30" id="6F4-8b-jvW"/>
+                                    <constraint firstAttribute="bottom" secondItem="7Ia-Z1-JHt" secondAttribute="bottom" id="6F4-8b-jvW"/>
                                     <constraint firstItem="zty-2Y-yvu" firstAttribute="leading" secondItem="jN7-QD-zCc" secondAttribute="leading" id="70f-N8-dlj"/>
                                     <constraint firstItem="AR5-4S-1Px" firstAttribute="top" secondItem="jN7-QD-zCc" secondAttribute="top" id="ICG-2V-jLi"/>
                                     <constraint firstItem="jN7-QD-zCc" firstAttribute="leading" secondItem="iFS-oL-SDR" secondAttribute="leading" constant="25" id="KFs-if-UZ4"/>
@@ -841,7 +841,7 @@ Access Profile</string>
                                     <constraint firstItem="7Ia-Z1-JHt" firstAttribute="leading" secondItem="iFS-oL-SDR" secondAttribute="leading" id="XR6-HW-dh0"/>
                                     <constraint firstAttribute="trailing" secondItem="AR5-4S-1Px" secondAttribute="trailing" constant="20" id="avm-Mx-Q3E"/>
                                     <constraint firstItem="7Ia-Z1-JHt" firstAttribute="top" secondItem="iFS-oL-SDR" secondAttribute="top" id="quC-Ab-Ajr"/>
-                                    <constraint firstItem="zty-2Y-yvu" firstAttribute="top" secondItem="iFS-oL-SDR" secondAttribute="top" constant="60" id="zZu-Za-HPW"/>
+                                    <constraint firstItem="zty-2Y-yvu" firstAttribute="top" secondItem="iFS-oL-SDR" secondAttribute="top" constant="75" id="zZu-Za-HPW"/>
                                 </constraints>
                             </view>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No active users in this room, Wait for users to join" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6RR-W2-fVH">
@@ -1073,10 +1073,10 @@ Access Profile</string>
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fzw-b7-04T">
-                                        <rect key="frame" x="323" y="48" width="50" height="50"/>
+                                        <rect key="frame" x="333" y="53" width="40" height="40"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="50" id="SGe-TL-cd6"/>
-                                            <constraint firstAttribute="height" constant="50" id="coR-dj-nRd"/>
+                                            <constraint firstAttribute="width" constant="40" id="SGe-TL-cd6"/>
+                                            <constraint firstAttribute="height" constant="40" id="coR-dj-nRd"/>
                                         </constraints>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Button" image="ic_whiteSettings"/>
@@ -1088,7 +1088,7 @@ Access Profile</string>
                                                 <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="number" keyPath="customRadius">
-                                                <real key="value" value="25"/>
+                                                <real key="value" value="20"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
