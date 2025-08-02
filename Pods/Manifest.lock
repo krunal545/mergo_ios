@@ -1,0 +1,186 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - AlamofireSwiftyJSON (1.0.2):
+    - Alamofire (~> 4.0)
+    - SwiftyJSON (~> 4.0)
+  - CHIPageControl/Aleppo (0.2)
+  - CollectionViewPagingLayout (1.1.0)
+  - CollectionViewSlantedLayout (3.1.1)
+  - CountryPickerView (3.3.0)
+  - FSCalendar (2.8.4)
+  - GDCheckbox (1.0.3)
+  - ImageSlideshow/Alamofire (1.8.3):
+    - AlamofireImage (~> 3.0)
+    - ImageSlideshow/Core
+  - ImageSlideshow/Core (1.8.3)
+  - InputBarAccessoryView (5.5.0):
+    - InputBarAccessoryView/Core (= 5.5.0)
+  - InputBarAccessoryView/Core (5.5.0)
+  - iOSDropDown (0.4.0)
+  - IQKeyboardCore (1.0.5)
+  - IQKeyboardManagerSwift (8.0.0):
+    - IQKeyboardManagerSwift/Appearance (= 8.0.0)
+    - IQKeyboardManagerSwift/Core (= 8.0.0)
+    - IQKeyboardManagerSwift/IQKeyboardReturnManager (= 8.0.0)
+    - IQKeyboardManagerSwift/IQKeyboardToolbarManager (= 8.0.0)
+    - IQKeyboardManagerSwift/IQTextView (= 8.0.0)
+    - IQKeyboardManagerSwift/Resign (= 8.0.0)
+  - IQKeyboardManagerSwift/Appearance (8.0.0):
+    - IQKeyboardManagerSwift/Core
+  - IQKeyboardManagerSwift/Core (8.0.0):
+    - IQKeyboardNotification
+    - IQTextInputViewNotification
+  - IQKeyboardManagerSwift/IQKeyboardReturnManager (8.0.0):
+    - IQKeyboardReturnManager
+  - IQKeyboardManagerSwift/IQKeyboardToolbarManager (8.0.0):
+    - IQKeyboardManagerSwift/Core
+    - IQKeyboardToolbarManager
+  - IQKeyboardManagerSwift/IQTextView (8.0.0):
+    - IQTextView
+  - IQKeyboardManagerSwift/Resign (8.0.0):
+    - IQKeyboardManagerSwift/Core
+  - IQKeyboardNotification (1.0.3)
+  - IQKeyboardReturnManager (1.0.4):
+    - IQKeyboardCore (= 1.0.5)
+  - IQKeyboardToolbar (1.1.1):
+    - IQKeyboardCore
+    - IQKeyboardToolbar/Core (= 1.1.1)
+  - IQKeyboardToolbar/Core (1.1.1):
+    - IQKeyboardCore
+    - IQKeyboardToolbar/Placeholderable
+  - IQKeyboardToolbar/Placeholderable (1.1.1):
+    - IQKeyboardCore
+  - IQKeyboardToolbarManager (1.1.2):
+    - IQKeyboardToolbar
+    - IQTextInputViewNotification
+  - IQTextInputViewNotification (1.0.8):
+    - IQKeyboardCore
+  - IQTextView (1.0.5):
+    - IQKeyboardToolbar/Placeholderable
+  - JGProgressHUD (2.2)
+  - KeychainSwift (24.0.0)
+  - Koloda (5.0.1):
+    - pop (~> 1.0)
+  - KSToastView (0.5.7)
+  - MarqueeLabel (4.5.0)
+  - MercariQRScanner (1.9.0)
+  - MessageKit (3.8.0):
+    - InputBarAccessoryView (~> 5.5.0)
+  - MSPeekCollectionViewDelegateImplementation (3.2.0)
+  - pop (1.0.12)
+  - SDWebImage (5.20.0):
+    - SDWebImage/Core (= 5.20.0)
+  - SDWebImage/Core (5.20.0)
+  - SideMenu (6.5.0)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
+  - SwiftyJSON (4.3.0)
+  - TagListView (1.4.1)
+  - TTGSnackbar (1.12.0)
+
+DEPENDENCIES:
+  - AlamofireSwiftyJSON
+  - CHIPageControl/Aleppo
+  - CollectionViewPagingLayout
+  - CollectionViewSlantedLayout (~> 3.1)
+  - CountryPickerView
+  - FSCalendar
+  - GDCheckbox
+  - ImageSlideshow/Alamofire
+  - iOSDropDown
+  - IQKeyboardManagerSwift
+  - JGProgressHUD
+  - KeychainSwift
+  - Koloda
+  - KSToastView (= 0.5.7)
+  - MarqueeLabel
+  - MercariQRScanner
+  - MessageKit
+  - MSPeekCollectionViewDelegateImplementation
+  - SDWebImage
+  - SideMenu
+  - SVProgressHUD
+  - TagListView
+  - TTGSnackbar
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - AlamofireSwiftyJSON
+    - CHIPageControl
+    - CollectionViewPagingLayout
+    - CollectionViewSlantedLayout
+    - CountryPickerView
+    - FSCalendar
+    - GDCheckbox
+    - ImageSlideshow
+    - InputBarAccessoryView
+    - iOSDropDown
+    - IQKeyboardCore
+    - IQKeyboardManagerSwift
+    - IQKeyboardNotification
+    - IQKeyboardReturnManager
+    - IQKeyboardToolbar
+    - IQKeyboardToolbarManager
+    - IQTextInputViewNotification
+    - IQTextView
+    - JGProgressHUD
+    - KeychainSwift
+    - Koloda
+    - KSToastView
+    - MarqueeLabel
+    - MercariQRScanner
+    - MessageKit
+    - MSPeekCollectionViewDelegateImplementation
+    - pop
+    - SDWebImage
+    - SideMenu
+    - SVProgressHUD
+    - SwiftyJSON
+    - TagListView
+    - TTGSnackbar
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  AlamofireSwiftyJSON: 74ee3804bed06d07857daf1eeb1615c85dba3997
+  CHIPageControl: a787bf7205c9b7e7fbfc412be36c5e8636b68f86
+  CollectionViewPagingLayout: 2f8d50683bae57ca88f47fa4ab0195c9079582cf
+  CollectionViewSlantedLayout: 24397455acd2461960bc45d394e0ef99c17d03ce
+  CountryPickerView: 6322ada32a80b0cd721b0267282a5c24f406f263
+  FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
+  GDCheckbox: aa4a7fb70039fbeb774891d0795d6acce89dfb57
+  ImageSlideshow: 4694d7d699a1549582e7cc631fb392d8f91630f3
+  InputBarAccessoryView: 1d7b0a672b36e370f01f264b3907ef39d03328e3
+  iOSDropDown: ce9daa584eaa5567cafc1b633e3cc7eb6d9cea42
+  IQKeyboardCore: 28c8bf3bcd8ba5aa1570b318cbc4da94b861711e
+  IQKeyboardManagerSwift: 0c6fbbaa2e60739e48d7cf59f25661471a7a3a65
+  IQKeyboardNotification: d7382c4466c5a5adef92c7452ebf861b36050088
+  IQKeyboardReturnManager: 972be48528ce9e7508ab3ab15ac7efac803f17f5
+  IQKeyboardToolbar: d4bdccfb78324aec2f3920659c77bb89acd33312
+  IQKeyboardToolbarManager: 6f4072ac620c2572d4af8c09f42a801f3e4909f7
+  IQTextInputViewNotification: f5e954d8881fd9808b744e49e024cc0d4bcfe572
+  IQTextView: ae13b4922f22e6f027f62c557d9f4f236b19d5c7
+  JGProgressHUD: d83d7a981b85d11205e19ff8ad5bb9c40571c847
+  KeychainSwift: 007c4647486e4563adca839cf02cef00deb3b670
+  Koloda: d07b9199a383abc5898b62aa945a599f5e7c0c4b
+  KSToastView: aeb0ca50b44e9568b6f95b2d1ec53a3f016b50fc
+  MarqueeLabel: 4b46d196abd253448e830cbd976f9eacc3af0849
+  MercariQRScanner: e5aea873969af59b09b4cc411fc1c5b6293dba44
+  MessageKit: a1ba0c69ebead94029867853eb44dd05b9b3f453
+  MSPeekCollectionViewDelegateImplementation: be35a217bd302976a9e4476151be992c1f150127
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  SDWebImage: 73c6079366fea25fa4bb9640d5fb58f0893facd8
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  TagListView: a1c236d17960a0cf64156725a76ce6d73ebce2be
+  TTGSnackbar: 8e7650b9b1f5f44e40228473455986f5c12213c7
+
+PODFILE CHECKSUM: 027e564efeca7d6f7ce602f6b0796f7d1702c784
+
+COCOAPODS: 1.16.2

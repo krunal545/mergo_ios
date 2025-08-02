@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="RestaurantDetailsTblCell" rowHeight="132" id="KGk-i7-Jjw" customClass="RestaurantDetailsTblCell" customModule="Margo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="132"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="132"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p1a-Pf-gaQ">
+                        <rect key="frame" x="5" y="5" width="310" height="122"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_1" translatesAutoresizingMaskIntoConstraints="NO" id="SGk-4U-MDa" customClass="SDAnimatedImageView">
+                                <rect key="frame" x="0.0" y="0.0" width="310" height="122"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="customRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 3464353" translatesAutoresizingMaskIntoConstraints="NO" id="i1d-FM-7mm">
+                                <rect key="frame" x="0.0" y="0.0" width="310" height="122"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="customRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Avni " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gyz-Rm-g1C" customClass="MarqueeLabel" customModule="MarqueeLabel">
+                                <rect key="frame" x="15" y="56.333333333333336" width="165" height="22.333333333333336"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="trailingBuffer">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="scrollDuration">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address : Kalawad Road Rajkot - 3610004" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjf-hj-FWd" customClass="MarqueeLabel" customModule="MarqueeLabel">
+                                <rect key="frame" x="15" y="80.666666666666671" width="165" height="31.333333333333329"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="trailingBuffer">
+                                        <real key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="scrollDuration">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jrj-pI-8nm">
+                                <rect key="frame" x="200" y="82" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="5ae-Ni-AIQ"/>
+                                    <constraint firstAttribute="height" constant="30" id="no4-EB-aDQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Join Room" backgroundImage="button_gradient">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="customRadius">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnJoinRoomAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="xLX-6A-e75"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="i1d-FM-7mm" firstAttribute="trailing" secondItem="SGk-4U-MDa" secondAttribute="trailing" id="2db-td-ZVs"/>
+                            <constraint firstItem="gyz-Rm-g1C" firstAttribute="leading" secondItem="p1a-Pf-gaQ" secondAttribute="leading" constant="15" id="55V-hP-Wmb"/>
+                            <constraint firstItem="i1d-FM-7mm" firstAttribute="bottom" secondItem="SGk-4U-MDa" secondAttribute="bottom" id="B09-eo-c9g"/>
+                            <constraint firstItem="jrj-pI-8nm" firstAttribute="leading" secondItem="tjf-hj-FWd" secondAttribute="trailing" constant="20" id="FSf-G9-8IR"/>
+                            <constraint firstItem="jrj-pI-8nm" firstAttribute="bottom" secondItem="tjf-hj-FWd" secondAttribute="bottom" id="Fqb-nf-dNE"/>
+                            <constraint firstItem="i1d-FM-7mm" firstAttribute="leading" secondItem="SGk-4U-MDa" secondAttribute="leading" id="GCJ-DZ-W1R"/>
+                            <constraint firstAttribute="bottom" secondItem="SGk-4U-MDa" secondAttribute="bottom" id="I30-OM-tug"/>
+                            <constraint firstItem="SGk-4U-MDa" firstAttribute="leading" secondItem="p1a-Pf-gaQ" secondAttribute="leading" id="Opn-1s-Ivg"/>
+                            <constraint firstItem="tjf-hj-FWd" firstAttribute="top" secondItem="gyz-Rm-g1C" secondAttribute="bottom" constant="2" id="WQD-hE-fjO"/>
+                            <constraint firstAttribute="trailing" secondItem="jrj-pI-8nm" secondAttribute="trailing" constant="10" id="Wns-FT-Bn7"/>
+                            <constraint firstItem="tjf-hj-FWd" firstAttribute="trailing" secondItem="gyz-Rm-g1C" secondAttribute="trailing" id="XlC-3n-fVh"/>
+                            <constraint firstAttribute="trailing" secondItem="SGk-4U-MDa" secondAttribute="trailing" id="aHu-Gn-RPN"/>
+                            <constraint firstItem="SGk-4U-MDa" firstAttribute="top" secondItem="p1a-Pf-gaQ" secondAttribute="top" id="c7x-Zq-vyY"/>
+                            <constraint firstAttribute="bottom" secondItem="jrj-pI-8nm" secondAttribute="bottom" constant="10" id="g06-Wa-Gm2"/>
+                            <constraint firstItem="i1d-FM-7mm" firstAttribute="top" secondItem="SGk-4U-MDa" secondAttribute="top" id="gv6-J8-rsv"/>
+                            <constraint firstItem="gyz-Rm-g1C" firstAttribute="leading" secondItem="tjf-hj-FWd" secondAttribute="leading" id="i6Y-YZ-yKG"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="customRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="0.90000000000000002"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="1" height="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" systemColor="systemGray2Color"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="p1a-Pf-gaQ" secondAttribute="trailing" constant="5" id="YzF-g6-OM6"/>
+                    <constraint firstItem="p1a-Pf-gaQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="bAK-z1-tyN"/>
+                    <constraint firstAttribute="bottom" secondItem="p1a-Pf-gaQ" secondAttribute="bottom" constant="5" id="opG-Zk-uQi"/>
+                    <constraint firstItem="p1a-Pf-gaQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="wt5-Dz-Eeh"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="Restimg" destination="SGk-4U-MDa" id="4gt-Ru-IRg"/>
+                <outlet property="lblAddress" destination="tjf-hj-FWd" id="olV-6I-6dW"/>
+                <outlet property="lblRestName" destination="gyz-Rm-g1C" id="ZFN-wN-GqH"/>
+            </connections>
+            <point key="canvasLocation" x="103.81679389312977" y="57.74647887323944"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Rectangle 3464353" width="640" height="800"/>
+        <image name="button_gradient" width="670" height="100"/>
+        <image name="img_1" width="360" height="240"/>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
